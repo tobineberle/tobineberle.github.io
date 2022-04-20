@@ -1,2 +1,4 @@
-# Hi Kate
-**Landing page for my github hosted website**
+Personal portfolio hosted on Github Pages
+-----
+
+
