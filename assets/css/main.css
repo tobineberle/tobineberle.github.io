@@ -704,6 +704,19 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.avatar {
+				border-radius: 100%;
+			}
+	
+			.image.avatar:before {
+					display: none;
+			}
+	
+			.image.avatar img {
+					border-radius: 100%;
+					width: 100%;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -1140,9 +1153,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1197,7 +1213,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		position: relative;
-		min-height: 100vh;
+		min-height: 75vh;
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
