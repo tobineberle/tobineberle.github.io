@@ -708,8 +708,8 @@ input, select, textarea {
 
 		.image.avatar {
 				border-radius: 100%;
-				margin: 0 0 0 1.75em;
-				
+				display: flex;
+				justify-content: center;
 			}
 	
 			.image.avatar:before {
@@ -719,7 +719,6 @@ input, select, textarea {
 			.image.avatar img {
 					border-radius: 100%;
 					max-width: 100%;
-					margin: inherit
 					
 			}
 
